@@ -37,7 +37,7 @@ def average_hash(fname, size=16):
 # 바이너리를 hash로 변환하는 함수
 # 두 이미지를 유사성을 검사할때 픽셀 하나하나 비교하는것은 비효율적
 # 따라서 이미지를 변환한 전체 픽셀에대해 hash code 를 생성
-그것으로 오차범위내에서 비교하는것이 편리
+#그것으로 오차범위내에서 비교하는것이 편리
 def np2hash(n):
     bhash=[]
     for n1 in n.tolist():
